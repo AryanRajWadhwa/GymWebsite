@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Cuts & Curves - Unisex</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+<style> 
+body{
+    margin : 0px;
+    padding : 0px;
+    background: url('Images/photo-bg.jpg');
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+
+}</style>
+<body>
+    <div class="nav sticky">
+    <div class="left">
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./abs.html">About Us</a></li>
+                <li><a href="./Programs.html">Programs</a></li>
+                <li><a href="./Blog.html">BLOG</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="mid">
+        <img src="Images/logo.jpg" alt="Logo">
+        
+    </div> -->
+    <!-- <div class="right">
+        <div class="navbar">
+            <ul>
+                <!-- <li><a href="./Blog.html">BLOG</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li> -->
+            </ul>
+        </div>
+    </div> -->
+    </div>
+    <div class="container">
+        <!-- <p>“I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.”<br> Muhammad Ali</p> -->
+        <h2><b>Join us</b></h2>
+        
+        <form action="/index" method="POST">
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Name" id="name">
+                <select name="sex" id="sex" required>
+                    <option value="" disabled selected hidden>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                <input type="text" placeholder="Enter your Age" name="age" id="age">
+                <input type="text" placeholder="Enter your Current Height" name="height" id="height">
+                <input type="text" placeholder="Enter your Current Weight" name="weight" id="weight">
+                <input type="text" placeholder="Enter your Phone Number" name="number" id="number">
+                <input type="email" placeholder="Enter your Email" name="email" id="email">
+            </div>
+                <button class = "btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

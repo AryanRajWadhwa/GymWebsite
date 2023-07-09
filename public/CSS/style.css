@@ -1,0 +1,93 @@
+.nav {
+    background-color: whitesmoke;
+    position: sticky;
+}
+
+.left {
+    /* border: 1px solid red; */
+    display: block;
+    width: 45%;
+    margin-top: 1px;
+    margin-left: 465px;
+}
+.navbar li {
+    display: inline-block;
+    background-color: b;
+    font-size: larger;    
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 56px 500px;
+    /* border: 2px solid red; */
+    width: 27%;
+    border-radius: 10px;
+    padding: 80px;
+    
+    
+}
+.formgroup input {
+    display: block;
+    text-align: center;
+    padding: 9px;
+    margin: 11px auto;
+    width: 353px;
+    /* border: 2px solid black; */
+    font-size: 15px;
+}
+.formgroup select {
+    display: block;
+    text-align: center;
+    padding: 9px;
+    margin: 11px auto;
+    width: 375px;
+    /* border: 2px solid black; */
+    font-size: 15px;
+}
+.container h2{
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(7, 37, 37);;
+}
+.container p{
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    color: rgb(51, 47, 47);
+
+}
+.btn{
+    margin: auto 172px;
+    font-size: medium;
+}
+.btn:hover{
+    color: blue;
+}
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+  }
